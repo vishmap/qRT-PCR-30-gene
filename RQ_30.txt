@@ -28,4 +28,3 @@ def main():
         print(f"log2 fold change for gene {i+1} = {log2fc}")
 
 main()
-r
