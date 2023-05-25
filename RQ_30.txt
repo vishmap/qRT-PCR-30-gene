@@ -14,7 +14,7 @@ def calculate_fc_and_log2fc(data0, data1, data2, data3, data4, data5, data6, dat
     return fc, log2fc
 
 def main():
-    for i in range(10):
+    for i in range(30):
         data0 = float(input(f"experimental group technical replicate 1 experimental gene {i+1} Cq/Ct value: "))
         data1 = float(input(f"experimental group technical replicate 2 experimental gene {i+1} Cq/Ct value: "))
         data2 = float(input(f"experimental group technical replicate 1 housekeeping gene {i+1} Cq/Ct value: "))
